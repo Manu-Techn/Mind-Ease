@@ -1,0 +1,81 @@
+.header {
+    background: darkgreen;
+    padding: 1rem 0;
+    box-shadow: lightgrey;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-icon {
+    margin-right: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+.login-btn, .signup-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.signup-btn {
+    background: white;
+    color: darkgreen;
+}
+
+.login-btn:hover {
+    background: lightseagreen;
+}
+
+.signup-btn:hover {
+    background: lightgreen;
+}
+
+/* Mobile Responsive*/
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}

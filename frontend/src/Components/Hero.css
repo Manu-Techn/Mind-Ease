@@ -1,0 +1,112 @@
+/* Hero section */
+.hero {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Container for hero content */
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header styling */
+.hero-content h1 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 1rem;
+  background: darkgreen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Paragraph styling */
+.hero-content p {
+  font-size: 1.2rem;
+  color: darkslategray;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+/* Container for hero image */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero image styling */
+.hero-img {
+  width: 100%;
+  max-width: 400%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Bounce animation on hover */
+.hero-img:hover {
+  animation: bounce 0.5s ease-in-out; /* Trigger bounce animation on hover */
+}
+
+/* Bounce animation keyframes */
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0); /* Normal position */
+  }
+  40% {
+    transform: translateY(10px); /* Move down */
+  }
+  80% {
+    transform: translateY(-5px); /* Slightly move upwards */
+  }
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    height: 250px;
+  }
+}
+
+/* Button styling */
+.hero button {
+  color: black;
+  background: lightgreen;
+  font-weight: bold;
+}
