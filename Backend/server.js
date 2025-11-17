@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./Routes/auth'));
 app.use('/api/gratitude', require('./Routes/gratitude'));
 
 // Basic route
