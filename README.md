@@ -97,19 +97,20 @@ Mind-Ease/
 
 ### Navigate to backend
 cd Backend
-# Install dependencies
+
+## Install dependencies
 npm install
 
-# Start the backend server
+## Start the backend server
 npm run dev
 
 ### Navigate to frontend
 cd Frontend
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Start the frontend server
+## Start the frontend server
 npm start
 
 "Taking care of your mental health is an act of self-love."
