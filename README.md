@@ -2,7 +2,8 @@
 
 A full-stack MERN application designed to provide accessible mental wellness tools through mood tracking, journaling, and gratitude practices.
 
-## 🚀 Live Demo
+## 🚀 Live Link
+https://mind-ease1.vercel.app/
 
 
 ## 📋 Table of Contents
@@ -47,12 +48,13 @@ A full-stack MERN application designed to provide accessible mental wellness too
 ### Backend
 - **Node.js** - Runtime environment
 - **Express.js** - Web application framework
-- **MongoDB** - NoSQL database
+- **MongoDB** - Database
 - **Mongoose** - MongoDB object modeling
 - **bcryptjs** - Password hashing
 - **CORS** - Cross-origin resource sharing
 
 ## 💻 Installation
+npm install
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -98,22 +100,18 @@ cd Backend
 # Install dependencies
 npm install
 
-# Environment Configuration
-# Create a .env file in the Backend directory with:
-# MONGODB_URI=mongodb://localhost:27017/mindease
-# PORT=5000
-# JWT_SECRET=your_secret_key_here
-
 # Start the backend server
 npm run dev
 
 ### Navigate to frontend
 cd Frontend
+
 # Install dependencies
 npm install
+
 # Start the frontend server
 npm start
 
-"Taking care of your mental health is an act of self-love"
+"Taking care of your mental health is an act of self-love."
 
 Built with ❤️ for better mental wellness!
